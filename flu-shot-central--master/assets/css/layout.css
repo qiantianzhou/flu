@@ -1,0 +1,42 @@
+.site{
+	display: grid;
+	grid-template-columns: 1fr 1fr ;
+	grid-gap: 2em;
+
+	grid-template-areas:
+		"about   facts"
+		"flu  prevent";
+}
+
+.about{
+	grid-area: about;
+}
+
+.facts{
+	grid-area: facts;
+}
+
+.flu{
+	grid-area: flu;
+}
+
+.prevent{
+	grid-area:prevent;
+}
+
+
+.imgset{
+	width:50%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
