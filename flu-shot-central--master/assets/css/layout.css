@@ -30,6 +30,17 @@
 }
 
 
+@media screen and (max-width:650px) {
+	.site{
+		grid-template-columns: 1fr;
+		grid-template-areas: 
+		"about"
+		"facts"
+		"flu"
+		"prevent";
+	}
+}
+
 
 
 
