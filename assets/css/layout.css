@@ -94,10 +94,12 @@
 }
 
 .imgset1{
-	max-width:25%;
+	max-width:40%;
     height: auto;
 	float:right;
-	margin: 0 0 40px 40px;
+	padding-left: 10px;
+	padding-right: 10px;
+	
 }
 
 

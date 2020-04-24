@@ -1,0 +1,20 @@
+.site{
+	margin: 4em;
+}
+
+.imgset{
+	display:block;
+	width:100%;
+	margin:0 auto;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+.imgset1{
+	max-width:40%;
+    height: auto;
+	float:right;
+	padding-left: 10px;
+	padding-right: 10px;
+	
+}
