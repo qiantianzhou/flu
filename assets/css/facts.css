@@ -1,0 +1,88 @@
+.site{
+	display: grid;
+	grid-template-columns: 1fr 1fr
+	grid-gap: 2em;
+
+	grid-template-areas:
+		"whatis whatis"
+		"fluimg flufluimg"
+		"whenis whenis"
+		"a-fluimg b-flufluimg"
+		"understanding understanding";
+}
+
+.h2-1{
+	grid-area: whatis;
+}
+
+.h2-2{
+	grid-area: whenis;
+}
+
+.h2-3{
+	grid-area: understanding;
+}
+
+.h3-1{
+	grid-area:fluimg;
+}
+
+.h3-2{
+	grid-area:flufluimg;
+}
+.h3-3{
+	grid-area:a-fluimg;
+}
+
+.h3-4{
+	grid-area:b-flufluimg;
+}
+
+.site{
+	margin: 4em;
+}
+
+.imgset{
+	max-width:30%;
+    height: auto;
+	float:right;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+.imgset1{
+	max-width:100%;
+    
+	
+	padding-left: 10px;
+	padding-right: 10px;
+	
+}
+.site h1{
+	text-align: center;
+	background-color:#9ad3cc;
+
+}
+.site h2{
+	padding-top: 1em;
+	padding-left: 8px;
+}
+.site p{
+	padding: 8px;
+}
+
+
+
+@media screen and (max-width:650px) {
+	.site{
+		grid-template-columns: 1fr;
+		grid-template-areas: 
+		"whatis"
+		"fluimg"
+		"flufluimg"
+		"whenis"
+		"a-fluimg"
+		"b-flufluimg"
+		"understanding";
+	}
+}
