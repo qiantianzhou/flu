@@ -1,0 +1,132 @@
+.site{
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr
+	grid-gap: 2em;
+
+	grid-template-areas:
+		"tp tp tp"
+		"whatis whenis understanding"
+		"wwhatis wwhenis wunderstanding"
+		"qwhatis qwhenis qunderstanding";
+}
+.h1{
+	grid-area: tp;
+
+}
+.h2-1{
+	grid-area: whatis;
+	background-color:#79B3A3;
+	margin:0.5em;
+}
+
+.h2-2{
+	grid-area: whenis;
+	background-color:#97BFD5;
+	margin:0.5em;
+}
+
+.h2-3{
+	grid-area: understanding;
+	background-color:#6AA4B7;
+	margin:0.5em;
+}
+
+.h2-4{
+	grid-area: wwhatis;
+	background-color:#B1D2D5;
+	margin:0.5em;
+}
+
+.h2-5{
+	grid-area: wwhenis;
+	background-color:#689898;
+	margin:0.5em;
+}
+
+.h2-6{
+	grid-area: wunderstanding;
+	background-color:#79B3A3;
+	margin:0.5em;
+}
+
+.h2-7{
+	grid-area: qwhatis;
+	background-color:#97BFD5;
+	margin:0.5em;
+}
+
+.h2-8{
+	grid-area: qwhenis;
+	background-color:#6AA4B7;
+	margin:0.5em;
+}
+
+.h2-9{
+	grid-area: qunderstanding;
+	background-color:#B1D2D5;
+	margin:0.5em;
+}
+
+.h2-10{
+	grid-area:fluimggg;
+}
+
+
+.site{
+	margin: 4em;
+	max-width: 800px;
+	margin: 0 auto;
+}
+
+.imgset{
+	max-width:40%;
+    height: auto;
+	float:right;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+.imgset1{
+	max-width:40%;
+    height: auto;
+	float:right;
+	padding-left: 10px;
+	padding-right: 10px;
+	
+}
+.site h1{
+	margin-top: 1em;
+	margin-bottom: 1em;
+	text-align: center;
+	background-color:#9ad3cc;
+
+}
+.site h2{
+	padding-top: 1em;
+	padding-left: 8px;
+}
+.site p{
+	padding: 8px;
+}
+.site h3{
+	padding-top: 1em;
+	padding-left: 8px;
+}
+
+
+@media screen and (max-width:650px) {
+	.site{
+		grid-template-columns: 1fr;
+		grid-template-areas: 
+		"tp"
+		"whatis"
+		"whenis"
+		"understanding"
+		"wwhatis"
+		"wwhenis"
+		"wunderstanding"
+		"qwhatis"
+		"qwhenis"
+		"qunderstanding";
+	}
+}

@@ -40,10 +40,12 @@
 
 .site{
 	margin: 4em;
+	max-width: 960px;
+	margin: 0 auto;
 }
 
 .imgset{
-	max-width:30%;
+	max-width:100%;
     height: auto;
 	float:right;
 	padding-left: 10px;
@@ -59,6 +61,7 @@
 	
 }
 .site h1{
+	margin-top: 1em;
 	text-align: center;
 	background-color:#9ad3cc;
 

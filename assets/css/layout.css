@@ -10,22 +10,78 @@
 
 .about{
 	grid-area: about;
+	margin-top: 3em;
 }
 
 .facts{
 	grid-area: facts;
+	margin-top: 3em;
 }
 
 .flu{
 	grid-area: flu;
+	margin-top: 3em;
 }
 
 .prevent{
 	grid-area:prevent;
+	margin-top: 3em;
+}
+.astyle a{
+	background-color: #9ad3cc;
+	float: right;
+	margin-bottom: 10px;
+	margin-right: 10px;
+}
+.astyle a:hover {
+	border: 0px solid #004F46;
+	color: #004F46;
+	background: #dfe675;
+}
+
+.astyle2 a{
+	background-color: #9ad3cc;
+	float: right;
+	margin-bottom: 10px;
+	margin-right: 10px;
+	margin-top:40px;
+}
+.astyle2 a:hover {
+	border: 0px solid #004F46;
+	color: #004F46;
+	background: #dfe675;
+}
+
+.astyle3 a{
+	background-color: #9ad3cc;
+	float: right;
+	margin-bottom: 10px;
+	margin-right: 10px;
+	margin-top:35px;
+}
+.astyle3 a:hover {
+	border: 0px solid #004F46;
+	color: #004F46;
+	background: #dfe675;
+}
+
+.astyle4 a{
+	background-color: #9ad3cc;
+	float: right;
+	margin-bottom: 10px;
+	margin-right: 10px;
+	margin-top:8px;
+}
+.astyle4 a:hover {
+	border: 0px solid #004F46;
+	color: #004F46;
+	background: #dfe675;
 }
 
 .site{
 	margin: 4em;
+	max-width: 960px;
+	margin: 0 auto;
 }
 
 .about,

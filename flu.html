@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Flu Shot Central</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="assets/css/style.css">
+	<link rel="stylesheet" href="assets/css/flu.css">
+	<link href="https://fonts.googleapis.com/css?family=Lato:300,400,700&display=swap" rel="stylesheet">
+	<style>
+
+	</style>
+</head>
+
+<body>
+
+	<!--navigation-->
+	<header>
+		<div class="container">
+		<h1><a href="index.html" id="logo"><img src="assets/img/ffclogo.svg" class="logo"></a></h1>
+		<button id="mb"><i class="fa fa-bars"></i></button>
+		<nav id="mediasc500">
+			<ul>
+				<li>
+					<a href="index.html"><p class="titf">Home</p></a>
+				</li>
+				<li>
+					<a href="prevention.html"><p class="titf">Prevention</p></a>
+				</li>
+				<li>
+					<a href="location.html"><p class="titf">Location</p></a>
+				</li>
+			</ul>
+			<div class="search">
+			<form>
+			<lable>
+			<input class="sinput" type="text" placeholder="Search">
+			</lable>
+			<button class="sbutton" type="submit" value="Submit"><img src="assets/img/search.svg"class="simg">
+			</button>
+			</form>
+		</div>
+		</nav>
+		
+		</div>
+	</header>
+
+	<div class="site">
+		
+			<div class="h2-1">
+				<h1>Flu Vaccination</h1>
+			
+				<h2>Why should people get vaccinated against the flu?</h2>
+				<p>Influenza is a potentially serious disease that can lead to hospitalization and sometimes even death. Every flu season is different, and influenza infection can affect people differently, but millions of people get flu every year, hundreds of thousands of people are hospitalized and thousands to tens of thousands of people die from flu-related causes every year. An annual seasonal flu vaccine is the best way to help protect against flu. Vaccination has been shown to have many benefits including reducing the risk of flu illnesses, hospitalizations and even the risk of flu-related death in children.</p>
+			</div>
+			
+			
+			<div class="h2-2">
+				<h2>How do flu vaccines work?</h2>
+				<p>Flu vaccines cause antibodies to develop in the body about two weeks after vaccination. These antibodies provide protection against infection with the viruses that are used to make the vaccine.</p>
+				<img class="imgset1" src="assets/img/flu4.png">
+				<p>The seasonal flu vaccine protects against the influenza viruses that research indicates will be most common during the upcoming season. Most flu vaccines in the United States protect against four different flu viruses (“quadrivalent”); an influenza A (H1N1) virus, an influenza A (H3N2) virus, and two influenza B viruses. There are also some flu vaccines that protect against three different flu viruses (“trivalent”); an influenza A (H1N1) virus, an influenza A (H3N2) virus, and one influenza B virus. Two of the trivalent vaccines are designed specifically for people 65 and older to create a stronger immune response.</p>
+			</div>
+			
+			<div class="h2-3">
+				<h2>When should I get vaccinated?</h2>
+				<p>You should get a flu vaccine before flu viruses begin spreading in your community since it takes about two weeks after vaccination for antibodies to develop in the body and provide protection against flu. Make plans to get vaccinated early in fall, before flu season begins. CDC recommends that people get a flu vaccine by the end of October. Getting vaccinated later, however, can still be beneficial and vaccination should continue to be offered throughout the flu season, even into January or later.</p>
+				<p>Getting vaccinated early (for example, in July or August) is likely to be associated with reduced protection against flu infection later in the flu season, particularly among older adults.</p>
+
+			</div>
+			
+		</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	<!--maybe copyrighted?-->
+	<footer style="padding-top: 10px;">
+		<p class="tc a1 p5">&copy; 2020 Flu Shot Central by Team Wow.</p>
+	</footer>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	<script>
+		$('#mb').click(function() {
+			$('nav').slideToggle();
+		});
+
+		$(window).resize(function() {
+			if (window.innerWidth > 499) {
+				$('nav').show();
+			}
+		});
+	</script>
+</body></html>
