@@ -1,0 +1,64 @@
+.site{
+	display: grid;
+	grid-template-columns: 1fr 1fr ;
+	grid-gap: 2em;
+
+	grid-template-areas:
+		"about   facts"
+		"flu  prevent";
+}
+
+.about{
+	grid-area: about;
+}
+
+.facts{
+	grid-area: facts;
+}
+
+.flu{
+	grid-area: flu;
+}
+
+.prevent{
+	grid-area:prevent;
+}
+
+
+.imgset{
+	display:block;
+	width:50%;
+	margin:0 auto;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+.imgset1{
+	max-width:25%;
+    height: auto;
+	float:right;
+	margin: 0 0 40px 40px;
+}
+
+
+@media screen and (max-width:650px) {
+	.site{
+		grid-template-columns: 1fr;
+		grid-template-areas: 
+		"about"
+		"facts"
+		"flu"
+		"prevent";
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
