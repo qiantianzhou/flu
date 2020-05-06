@@ -2,13 +2,31 @@
 <html>
 
 <head>
-	<title>Flu Shot Central</title>
+	<title>Flu Shot Central - Home</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	<link rel="stylesheet" href="assets/css/style.css">
-	<link rel="stylesheet" href="assets/css/layout.css">
 	<link href="https://fonts.googleapis.com/css?family=Lato:300,400,700&display=swap" rel="stylesheet">
 	<style>
+		#hero {
+			background: url(assets/img/zachary-nelson-98Elr-LIvD8-unsplash%20edited.jpg);
+			background-size: cover;
+			background-position: center center;
+			height: 400px;
+			width: 100%
+		}
+
+		.overlay {
+			background: rgba(0, 0, 0, 0.2);
+			height: 100%;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+		}
+
+		.overlay div {
+			max-width: 600px;
+		}
 
 	</style>
 </head>
@@ -18,130 +36,89 @@
 	<!--navigation-->
 	<header>
 		<div class="container">
-		<h1><a href="index.html" id="logo"><img src="assets/img/ffclogo.svg" class="logo"></a></h1>
-		<button id="mb"><i class="fa fa-bars"></i></button>
-		<nav id="mediasc500">
-			<ul>
-				<li>
-					<a href="index.html"><p class="titf">Home</p></a>
-				</li>
-				<li>
-					<a href="prevention.html"><p class="titf">Prevention</p></a>
-				</li>
-				<li>
-					<a href="location.html"><p class="titf">Location</p></a>
-				</li>
-			</ul>
-			<div class="search">
-			<form>
-			<lable>
-			<input class="sinput" type="text" placeholder="Search">
-			</lable>
-			<button class="sbutton" type="submit" value="Submit"><img src="assets/img/search.svg"class="simg">
-			</button>
-			</form>
-		</div>
-		</nav>
-		
+			<h1><a href="index.html" id="logo"><img src="assets/img/ffclogo.svg" class="logo"></a></h1>
+			<button id="mb"><i class="fa fa-bars"></i></button>
+			<nav id="mediasc500">
+				<ul>
+					<li>
+						<a href="index.html" style="background: #dfe675">
+							<p class="titf">Home</p>
+						</a>
+					</li>
+					<li>
+						<a href="prevention.html">
+							<p class="titf">Prevention</p>
+						</a>
+					</li>
+					<li>
+						<a href="location.html">
+							<p class="titf">Location</p>
+						</a>
+					</li>
+				</ul>
+				<div class="search">
+					<form>
+						<lable>
+							<input class="sinput" type="text" placeholder="Search">
+						</lable>
+						<button class="sbutton" type="submit" value="Submit"><img src="assets/img/search.svg" class="simg">
+						</button>
+					</form>
+				</div>
+			</nav>
+
 		</div>
 	</header>
 
-	<div class="site">
-		<div class="about">
-			<h1>About Flu</h1>
-			<h2>What is Influenza (Flu)?</h2>
-			<p>
-			<img class="imgset1" src="assets/img/flu1.jpeg">
-			Flu is a contagious respiratory illness caused by influenza viruses that infect the nose, throat, and sometimes the lungs. It can cause mild to severe illness, and at times can lead to death. The best way to prevent flu is by getting a flu vaccine each year.</p>
-			<h2>When is the flu season in the United States? </h2>
-			<p>season occurs in the Fall and Winter. While influenza viruses circulate year-round, most of the time flu activity peaks between December and February, but activity can last as late as May. The overall health impact (e.g., infections, hospitalizations, and deaths) of a flu season varies from season to season. CDC collects, compiles, and analyzes information on influenza activity year-round in the United States and produces FluView, a weekly surveillance report, and FluView Interactive, which allows for more in-depth exploration of influenza surveillance data.  The Weekly U.S. Influenza Summary Update is updated each week from October through May.</p>
-			<div class="astyle">
-				<a href="about.html">Learn More</a>
+	<!--hero-->
+	<div class="fullcontainer" style="padding-top: 0px">
+		<div id="hero">
+			<div class="overlay">
+				<div class="p10 tc">
+					<p class="tcolor5">Get Your flu shot and live a healthy life</p>
+					<p class="tcolor5" style="font-size: 18px; margin-top: 0px">From Flu Shot Central</p>
+				</div>
 			</div>
 		</div>
+	</div>
 
-
-		<div class="facts">
-			<h1>Facts</h1>
-			<h2>How Many People Get Sick with Flu Last Year?</h2>
-			<p>CDC estimates that the burden of illness during the 2018–2019 season included an estimated 35.5 million people getting sick with influenza, 16.5 million people going to a health care provider for their illness, 490,600 hospitalizations, and 34,200 deaths from influenza. The number of influenza-associated illnesses that occurred last season was similar to the estimated number of influenza-associated illnesses during the 2012–2013 influenza season when an estimated 34 million people had symptomatic influenza illness.</p>
-			<img class="imgset" src="assets/img/flu2.png">
-			<div class="astyle2">
-				<a href="facts.html">Learn More</a>
-			</div>
+	<!--text-->
+	<div class="container">
+		<div class="p50 hpaccc">
+			Are you a college student?<br>Did you get your flu shot this year? <br>Did you know that 37,000 people die each year in the US from the virus?
 		</div>
+	</div>
 
-
-		<div class="flu">
-			<h1>Flu Vaccination</h1>
-			<h2>Why should people get vaccinated against the flu?</h2>
-			<p>Influenza is a potentially serious disease that can lead to hospitalization and sometimes even death. Every flu season is different, and influenza infection can affect people differently, but millions of people get flu every year, hundreds of thousands of people are hospitalized and thousands to tens of thousands of people die from flu-related causes every year. An annual seasonal flu vaccine is the best way to help protect against flu. Vaccination has been shown to have many benefits including reducing the risk of flu illnesses, hospitalizations and even the risk of flu-related death in children.</p>
-			<img class="imgset" src="assets/img/flu4.png">
-			<div class="astyle3">
-				<a href="flu.html">Learn More</a>
-			</div>
+	<div class="container">
+		<div class="p50 hpaccc" style="padding-top: 0;">
+			While the elderly, young children and people with preexisting conditions are most at risk, you play an essential role in preventing unnecessary deaths by getting the flu shot yourself and preventing the spread of the disease to the most vulnerable! Only 50% of NYC college students get their flu shot. Let’s change this! Play your part - get the flu shot!
 		</div>
-
-
-		<div class="prevent">
-			<h1>Prevents</h1>
-			<h2>How to prevent the flu?</h2>
-			<p>CDC urges you to take the following actions to pretect yourself.</p>
-			<div class="prenvent-flu"><ul>
-				<li>Get the flu shot</li>
-				<li>Wash your hand</li>
-				<li>Cover your mouth when sneezing</li>
-				<li>Keep items you touch frequently clean</li>
-				<li>Get Vitamin D</li>
-				<li>Don't touch your face</li>
-				<li>Get some exercise</li>
-				<li>Stay home when you're sick</li>
-				<li>Get enough sleep</li>
-			</ul>
-		</div>
-			<img class="imgset" src="assets/img/flu3.jpg">
-		
-		<div class="astyle4">
-				<a href="prevent.html">Learn More</a>
-			</div>
 	</div>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
+	<!--bandaid-->
+		<div class="container">
+		<div class="hpacccb tc boxing c50 m10">
+			<div class="boxtitledg">Flu Shot Central Bandaid</div>
+			<div class="hpaccc tc m10" style="padding-top: 0;">
+			Get our band-aid from a partnered location and post an image of you wearing it. Show the world you got your antibodies!</div><img src="assets/img/bandaidv3web@2x-100.jpg" alt="" style="padding: 10px 10px 5px 5px">
+		</div>
+		<div class="hpacccb tc boxingy c50 m10">
+			<div class="boxtitledg" style="background: #dfe675; color: #008377">I Got My Antibodies</div>
+			<div class="hpaccc tc m10" style="padding-top: 0;">flushotcentral I got my flu shot. It’s to get yours. Show your medal here and tell us you got your shot by using the hashtag #FluShotCentral </div>
+			<img src="assets/img/fulligmuckup.jpg">
+		</div>
 	</div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 	<!--maybe copyrighted?-->
-	<footer style="padding-top: 10px;">
-		<p class="tc a1 p5">&copy; 2020 Flu Shot Central by Team Wow.</p>
+	<footer>
+		<div class="container tc p5">
+			<div class="c33"><a href="aboutffc.html" class="p10">About FluShotCentral.com</a></div>
+			<div class="c33"><a href="aboutteamwow.html" class="p10">About Team Wow</a></div>
+			<div class="c33"><a href="https://www.cdc.gov/flu/index.htm" class="p10">CDC</a></div>
+		</div>
+		<p class="tc a1" style="border-bottom: 1px dotted #9AD3CC">Jumps by Zachary Nelson at Unsplash</p>
+		<p class="tc a1">&copy; 2020 Flu Shot Central by Team Wow.</p>
 	</footer>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 	<script>
@@ -154,5 +131,10 @@
 				$('nav').show();
 			}
 		});
+
 	</script>
-</body></html>
+
+	<!--By Leping Jiang-->
+</body>
+
+</html>

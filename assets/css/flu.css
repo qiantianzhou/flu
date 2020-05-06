@@ -24,7 +24,7 @@
 
 .site{
 	margin: 4em;
-	max-width: 800px;
+	max-width: 960px;
 	margin: 0 auto;
 }
 
@@ -45,9 +45,11 @@
 	
 }
 .site h1{
-	margin-top: 1em;
+	margin-top: 20px;
 	text-align: center;
-	background-color:#9ad3cc;
+	background: #dfe675;
+	color: #008377;
+	padding: 5px 0px
 
 }
 .site h2{
